@@ -9,7 +9,7 @@ class Person {
 	console.log(person.age);
 }
 get name(string:name) {
-	return name;
+	return this.name;
 }
 set age(age:number){
 	this.age=age;
