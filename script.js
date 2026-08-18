@@ -15,6 +15,10 @@ get age(){
 set age(age){
 	this.age=age;
 	}
+	get age(){
+	return this.age;
+}
+	
 }
 const person = new Person("Harsha" , 1);
 console.log(person.name);
