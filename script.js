@@ -1,20 +1,20 @@
 //complete this code
 class Person {
-	constructor(name:string,age:number)
+	constructor(name,age){
 	this.name=name;
 	this.age=age;
-	const person = new Person ("Harsha", 1);
-	console.log(person.name);
-	person.age=25;
-	console.log(person.age);
-}
-get name(string:name) {
+	
+	}
+get name() {
 	return this.name;
 }
-set age(age:number){
+set age(age){
 	this.age=age;
-	}
-   console.log(Person);
+	}}
+const Person = new Person("Harsha" , 1);
+ console.log(Person.name);
+Person.age=25;
+console.log(age);
 class Student extends Person {
 
 	const Student = new Student("Elyna",24);
