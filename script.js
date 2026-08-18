@@ -16,10 +16,10 @@ set age(age){
 	this.age=age;
 	}
 }
-const Person = new Person("Harsha" , 1);
-console.log(Person.name);
-Person.age=25;
-console.log(age);
+const person = new Person("Harsha" , 1);
+console.log(person.name);
+person.age=25;
+console.log(person.age);
 class Student extends Person {
 	study(){
 		console.log(this.name + " is studying");
