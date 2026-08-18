@@ -3,17 +3,19 @@ class Person {
 	constructor(name,age){
 	this.name=name;
 	this.age=age;
-	
 	}
 get name() {
 	return this.name;
 }
 set age(age){
 	this.age=age;
-	}}
+	}
+get age(){
+	return this.age;
+}}
 const Person = new Person("Harsha" , 1);
- console.log(Person.name);
-Person.age=25;
+ console.log(person.name);
+person.age=25;
 console.log(age);
 class Student extends Person {
 
